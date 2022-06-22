@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# crypto__project
-=======
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -36,6 +33,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
+ 
 1. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
 2. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 3. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
@@ -51,7 +49,6 @@ As mentioned above, there are many ways to host your project for free. Our recom
 
 You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-
 ## Sharing your solution
 
 There are multiple places you can share your solution:
@@ -61,6 +58,7 @@ There are multiple places you can share your solution:
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
 
- 
+
+
 **Have fun building!** 🚀
->>>>>>> Stashed changes
+
