@@ -132,13 +132,14 @@ body {
     padding-top: 15px;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .card .card__content .creator .creator__picture img {
     height: 30px;
     border: 2px solid var(--white);
     border-radius: 50%;
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 .card .card__content .creator .creator__name {
@@ -148,4 +149,28 @@ body {
 
 .card .card__content .creator .creator__name .name__author {
     color: var(--white);
+}
+
+
+/*-------------------------     MOBILE FIRST  ------------------------------------*/
+
+
+/* smartphone */
+
+@media screen and (min-width: 420px) {
+    .card {}
+}
+
+
+/* tablette */
+
+@media screen and (min-width: 768px) {
+    .card {}
+}
+
+
+/* desktop */
+
+@media screen and (min-width: 1440px) {
+    .card {}
 }
