@@ -14,20 +14,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-ethereum.svg">
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <!-- font awesome -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- font awesome : Bibliotheque icones  -->
+    <!-- On vas chercher la ressources dans un CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>NFT preview card component</title>
 </head>
 
 <body>
     <div class="card">
-        <div class="card__header">
+        <header class="card__header">
+            <i class="fa-solid fa-eye"></i>
             <img src="images/image-equilibrium.jpg" alt="" class="img__product">
-        </div>
-        <div class="card__content">
+        </header>
+        <section class="card__content">
             <div class="card__content__header">
-                <h1>Equilibrium #3439</h1>
+                <h1 class="card__title">Equilibrium #3439</h1>
                 <p>
                     Our equilibrium collection promotes <br> balance and calm
                 </p>
@@ -40,9 +43,7 @@
                 </p>
                 <p class="time__left">
                     <i class="fa-solid fa-clock"></i>
-                    <span>
-              3 days left
-            </span>
+                    <span>3 days left</span>
 
                 </p>
             </div>
@@ -51,10 +52,10 @@
                     <img src="images/image-avatar.png" alt="">
                 </div>
                 <div class="creator__name">
-                    <p> Creation of <span>Jules Wyvern</span</p>
+                    <p> Creation of <span class="name__author">Jules Wyvern</span</p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
 
 </body>
