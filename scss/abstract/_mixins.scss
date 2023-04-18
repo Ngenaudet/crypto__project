@@ -1,0 +1,19 @@
+@mixin responsive($point) {
+    @if $point==mobile {
+        @media screen and (min-width: 200px) and (max-width: 767px) {
+            @content;
+        }
+    } @else if $point==tablet {
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            @content;
+        }
+    } @else if $point==responsive {
+        @media screen and (min-width: 200px) and (max-width: 1365px) {
+            @content;
+        }
+    } @else if $point==desktop-first {
+        @media screen and (min-width: 1280px) {
+            @content;
+        }
+    }
+}
